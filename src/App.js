@@ -28,7 +28,6 @@ function App() {
     setEditingContact(contacts[index]);
     setIsEditPage(true);
   }
-
   const handleCreate = () => {
     setIsEditPage(false);
   }
